@@ -1,0 +1,17 @@
+label#thumb{
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px dashed #dddddd;
+    background-size: cover;
+    cursor: pointer;
+    height: 160px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label#thumb input{ display: none; }
+
+label#thumb.hasThumb{ border: 0; }
+label#thumb.hasThumb img{ display: none; }
